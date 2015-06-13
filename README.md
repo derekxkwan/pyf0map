@@ -6,4 +6,4 @@ detects the fundamental frequency (f0) throughout time of a monophonic input wav
 The script writes to [inputfilename]-[number].wav.
 
 USAGE:
-python pyf0map.py [input] [output]
+python pyf0map.py [input] [target]
