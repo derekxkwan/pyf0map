@@ -7,3 +7,6 @@ The script writes to [inputfilename]-[number].wav.
 
 USAGE:
 python pyf0map.py [input] [target]
+
+SAMPLE OUTPUT:
+http://freesound.org/people/derekxkwan/sounds/276455/
