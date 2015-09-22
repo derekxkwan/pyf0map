@@ -11,4 +11,4 @@ python pyf0map.py [input] [target]
 SAMPLE OUTPUT:
 http://freesound.org/people/derekxkwan/sounds/276455/
 
-NOTE: If you get broadcast errors, increase the length of the target sound (should be at least 1 second).
+NOTE: If you get broadcast errors, the target sound is too far from the pitch of the input file and/or too short in length. For best result, use sounds that are not terribly different in pitch register.
