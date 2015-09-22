@@ -11,7 +11,7 @@ class voiceToInst():
 		self.inputSound = basic.SignalObj(inputSound)
 		self.inputFs = self.inputSound.fs
 		#self.inputPitch = pyaapt.yaapt(self.inputSound, **{'f0-min': 75.0, 'f0-max': 500.0, 'frame_length':15.0, 'frame_space': 10.0})
-		self.inPutPitch = pyaapt.yaapt(self.inputSound)
+		self.inputPitch = pyaapt.yaapt(self.inputSound)
 		self.inputF0 = self.inputPitch.values
 		self.targetF0 = self.avgTargetF0(targetSound)
 		self.targetFs, self.targetSound = wavfile.read(targetSound)
