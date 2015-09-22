@@ -10,3 +10,5 @@ python pyf0map.py [input] [target]
 
 SAMPLE OUTPUT:
 http://freesound.org/people/derekxkwan/sounds/276455/
+
+NOTE: If you get broadcast errors, increase the length of the target sound (should be at least 1 second).
